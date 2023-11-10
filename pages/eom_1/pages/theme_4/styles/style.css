@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat','Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(222, 235, 247);
+    height: 100vh;
+    width: 100vw;
+}
+
+.black_header{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    color: white;
+    background-color: black;
+}
+
+.black_header a{
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 2px;
+    border-radius: 35px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.black_header a:hover{
+    transition: 0.3s;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    height: 80vh;
+    max-height: 800px;
+    background-color: rgb(222, 235, 247);
+    border-radius: 50px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.first_part{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.first_part p{
+    padding: 35px;
+    font-size: 35px;
+}
+
+.first_part img{
+    border-radius: 25px;
+}
+
+.first_part span{
+    font-weight: 700;
+}
+
+.content{
+    overflow-y: auto;
+    scroll-snap-align: start;
+    height: 95%;
+    background-color: rgb(222, 235, 247);
+    border-radius: 50px;
+    padding: 25px;
+    margin: 25px;
+}
+
+.content::-webkit-scrollbar-track
+{   
+    border-radius: 10px;
+	background-color: #dadada;
+	border-radius: 10px;
+    padding: 15px;
+    width: 25px;
+
+}
+
+.content::-webkit-scrollbar
+{   
+
+    border-radius: 10px;
+	width: 10px;
+	background-color: #f5f5f500;
+    padding: 15px;
+    width: 15px;
+    
+}
+
+.content::-webkit-scrollbar-thumb
+{   
+    margin-right: 25px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background-image: rgba(0, 0, 0, 0.2);
+    width: 15px;
+}
+
+.table_part{
+    margin: 25px;
+}
+
+.iksweb3{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 25px;
+}
+
+.iksweb3 th{
+    
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    color: white;
+    background-color: rgb(0, 112, 192);
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.iksweb3 tr td{
+    text-align: center;
+    padding-top: 25px;
+    border-spacing: 0px;
+    font-size: 25px;
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.table_part h2{
+    color: rgb(255, 114, 118);
+    margin-bottom: 25px;
+}
+
+.iksweb th{
+    padding: 25px;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1.25px;
+    color: white;
+    background-color: #8b98ad;
+    border-bottom: solid 2px black;
+}
+
+.iksweb tr td{
+    padding: 25px;
+    font-size: 25px;
+}
+
+.iksweb tr td span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.iksweb_td2{
+    border-bottom: solid 2px green;
+}
+
+.shema_arm{
+    display: flex;
+    align-items: center;
+}
+
+.shema_arm p{
+    margin-left: 25px;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.image_part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 45px;
+}
+
+.image_part img{
+    width: 600px;
+    height: 500px;
+}
+
+.image_part a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 112, 192);
+}
+
+.text_part{
+    padding: 50px;
+}
+
+.third_part h2{
+    color: rgb(255, 114, 118);
+    margin: 25px;
+    margin-top: 50px;
+}
+
+.list_shema{
+    display: flex;
+}
+
+.first_part img{
+    width: 30%;
+}
+
+.popup_text{
+    display: flex;
+}
+
+.list_shema{
+    font-size: 30px;
+}
+
+.popup_text img{
+    width: 48%;
+    margin-right: 100px;
+}

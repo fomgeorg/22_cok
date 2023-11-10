@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+body{
+    background-size: cover;
+}
+
+.black_header{
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.black_header a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border: solid 1px #fff;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.3s;
+}
+
+.black_header a:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+
+.topic_link {
+    width: 25vh;
+    height: 25vh;
+    background-color: #FF7276;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    border-style: none;
+}
+
+
+.topic_link:focus{
+    outline: 2px solid black;
+}
+.topic_link:hover{
+    background-color: #ED3238;
+    color: white;
+    transition: all 0.3s;
+}
+.topic_link:active {
+    outline: 2px solid black;
+}
+.main_window{
+    width: 100%;
+}
+
+.main_window_top{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 20px;
+    margin-left: 45px;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-right: 35px;
+}
+
+.main_window_middle{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-size: 50px;
+    margin-top: 20px;
+    margin-left: 120px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.main_window_lower{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    justify-content: space-around;
+}
+
+.topic_link_place{
+    display: flex;
+
+
+    gap: 2rem;
+}
+
+
+
+.text_instructions{
+    width: 40%;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.list_of_literature{
+    font-weight: 600;
+    width: 300px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 1000px;
+    padding: 15px;
+    padding-left: 45px;
+    transition: all 0.3s;
+}
+
+
+.main_window_lower a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.main_window_lower img{
+    height: 250px;
+    margin-left: 15px;
+}
+
+
+@media (max-width: 1200px) {
+    .main_window_top {
+        display: flex;
+        flex-wrap: wrap; 
+        margin-top: 20px;
+        margin-left: 0px;
+        gap: 2rem;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .topic_link_place {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_window_middle{
+        display: flex;
+         flex-wrap: wrap;
+        background-size: 50px;
+        margin-top: 20px;
+        margin-left: 0px;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .main_window_lower{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        margin-top: 25px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .text_instructions{
+        width: 100%;
+        font-size: 25px;
+        margin: 25px 25px 25px 50px;
+        font-weight: 700;
+    }
+    
+    .list_of_literature{
+        margin: 40px;
+    }
+
+
+    .main_window_lower img {
+    display: none;
+
+    }
+
+    .body{
+        background-repeat: repeat;
+        background-size: contain;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .topic_link {
+        width: 20vh;
+        height: 20vh;
+        background-color: #FF7276;
+        border-radius: 30px;
+        font-size: 1em;
+        font-weight: 700;
+        color: #fff;
+        border-style: none;
+    }
+}
